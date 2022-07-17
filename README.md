@@ -1,3 +1,27 @@
+# ABOUT
+Flightless site is a single page website currently deloying at [THIS URL](https://flightless-game.netlify.app/)
+
+## REQUIREMENTS
+Want to have a single page site organized similar to [Kingdom of the Dump's Website](https://kingdomsofthedump.com/). Make sure page is designed around mobile and scales up to desktop view (use Chrome dev tools to see different views)
+- Navigation bar at the top of the screen that scrolls you down to different points (the bar should also follow the page like in Kingdom of the Dump)
+  - Home: capsule art of the game as image in the backgroung (taking up whole width)
+  - Trailer: placeholder youtube video (we can change the url later, justamke sure it loads a video from youtube properly and sized nicely)
+  - Other sections similar to the Kingdom of dump site (play around with it and see what looks nice)
+ For organizing content in a grid, I recommend [FLEXBOX](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) to make the CSS alot easier.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Next + Netlify Starter
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/46648482-644c-4c80-bafb-872057e51b6b/deploy-status)](https://app.netlify.com/sites/next-dev-starter/deploys)
