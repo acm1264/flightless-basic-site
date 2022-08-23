@@ -1,32 +1,27 @@
 export const MenuItems = [
     {
         title: "Home",
-        url: "#",
-        cName: "nav-links"
-    },
-    {
-        title: "Trailer",
-        url: "#",
+        url: "#home",
         cName: "nav-links"
     },
     {
         title: "About",
-        url: "#",
+        url: "#About",
         cName: "nav-links"
     },
     {
         title: "Characters",
-        url: "#",
+        url: "#Characters",
         cName: "nav-links"
     },
     {
         title: "Press Kit",
-        url: "#",
+        url: "#PressKit",
         cName: "nav-links"
     },
     {
         title: "Steam",
-        url: "#",
+        url: "https://store.steampowered.com/",
         cName: "nav-links-mobile"
     }
 ]

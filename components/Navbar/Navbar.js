@@ -17,8 +17,9 @@ class Navbar extends Component{
     render() {
         return(
             <nav className="NavbarItems">
-                <h1 className="navbar-logo">React</h1>
-                {/* <FontAwesomeIcon icon={faBars} /> */}
+                <img src="/gameLogo.png" className="navbar-logo"></img>
+
+                {/* hamburger menu */}
                 <div className="menu-icon" onClick={this.handleClick}>
                     <FontAwesomeIcon className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
                                     icon={this.state.clicked ? faTimes : faBars} 
@@ -27,7 +28,7 @@ class Navbar extends Component{
                 <ul className={this.state.clicked ? 'nav-menu active' : "nav-menu"}>
                     {MenuItems.map((item, index) => {
                         return(
-                            <li key={index}>
+                            <li key={index} onClick={this.handleClick}>
                                 <a className={item.cName} href={item.url}>
                                 {item.title}
                                 </a>
@@ -36,7 +37,7 @@ class Navbar extends Component{
                     })}
                     
                 </ul>
-                <Button>Steam</Button>
+                {/* <Button>Steam</Button> */}
             </nav>
         )
     }

@@ -62,7 +62,7 @@ code {
 
 /* nava bar styles below */
 .NavbarItems{
-  background: linear-gradient(90deg, rgb(110, 94, 254) 0%, rgba(73,63,252,1) 100%);
+  background: linear-gradient(90deg, rgb(60, 129, 179) 0%, rgb(46, 176, 196) 100%);
   height: 80px;
   display: flex; 
   justify-content: center;
@@ -80,6 +80,8 @@ code {
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
+  width: 30%;
+  max-height: 100%;
 }
 
 .nav-menu{
@@ -101,7 +103,7 @@ code {
 
 .nav-links:hover 
 {
-  background-color: #6d76f7;
+  background-color: #2B5C7F;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
@@ -110,9 +112,28 @@ code {
   color: #fff;
 }
 
-.nav-links-mobile{
+/* .nav-links-mobile{
   display: none;
-}
+} */
+
+.nav-links-mobile {
+    display: relative;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    background: #4ad9e4;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .nav-links-mobile:hover{
+    background: #fff;
+    color: #6568F4;
+    transition: 250ms;
+  }
 
 .menu-icon {
   display: none;
@@ -129,7 +150,7 @@ code {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 650px;
+    height: 550px;
     position: absolute;
     top: 60px;
     left: -100%;
@@ -138,7 +159,7 @@ code {
   }
 
   .nav-menu.active{
-    background: #6668f4;
+    background: linear-gradient(90deg, rgb(60, 129, 179) 0%, rgb(46, 176, 196) 100%);
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -153,15 +174,12 @@ code {
   }
 
   .nav-links:hover{
-    background-color: #7577fa;
+    background-color: #2B5C7F;
     border-radius: 0;
   }
 
   .navbar-logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(25%, 50%)
+    width: 50%;
   }
 
   .menu-icon {
@@ -216,6 +234,7 @@ code {
   outline: none;
   border: none;
   cursor: pointer;
+  background-color: #3acbf7;
 }
 
 .btn:hover{
@@ -246,7 +265,7 @@ code {
   color: #fff;
 }
 
-.btn-large{
+.btn--large{
   padding: 12px 26px;
   border-radius: 4px;
   font-size: 20px;
@@ -278,7 +297,31 @@ code {
 }
 
 
+/*About section*/
 
+#About{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.video-responsive {
+  /* overflow: hidden; */
+  /* padding-bottom: 56.25%; */
+  /* position: relative; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.video-responsive iframe {
+ 
+  height: 75%;
+  width: 75%;
+  /* position: absolute; */
+}
 
 
 
