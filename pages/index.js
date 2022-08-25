@@ -25,21 +25,48 @@ export default function Home() {
         </div>
 
         <div id="About">
-          <h2>Welcome to Arborden!</h2>
+          <h2>What is Flightless?</h2>
           <p>Help the flightless bird, Dover, fight his inner demons by teaming up with 7 partners 
             in this turn-based RPG where your timing matters! Solve puzzles, beat baddies, and tackle platforming 
             challenges to uncover the mysteries of a quirky, remote island and save Dover's family!</p>
           <YoutubeEmbed embedId="XeAM_fiWwVY" />
         </div>
+          
+        <div id="Gameplay">
+        <h2>Gameplay!</h2>
+          <p>Explore 6 dream-like worlds where you will take on the Mothia, a zombified cult of rock creatures, 
+            a corrupt video game company, and more! Uncover the mysteries of the quirky region of Arborden as you 
+            aid Dover in his quest to find his family and escape! Don't worry... EVERY WORLD HAS OATMEAL!!!!</p>
+          <p>
+            Engage in turn-based battles featuring Action Commands: a system that requires special inputs, such as 
+            timing a button press or hitting buttons in a sequence, to deal more or take less damage in battle. 
+            Learn to strategize with the elemental triangle to change how much damage is dealt too by thinking about 
+            elemental strengths/weaknesses. 
+          </p>
+          <p>
+            You can even equip feathers to give you perks in battles… or make combat <b>MORE DIFFICULT</b> 
+            if you crave the extra challenge! Numbers are kept small too to allow you to keep track of how 
+            much damage different moves will do more easily in your head than traditional RPGs!
+          </p>
+        </div>
+
         <div id="Characters">
-          <h2>Meet your friends!</h2>
+          <h2>Meet new friends!</h2>
           <CharacterBio />
         </div>
+
+        <NewsletterSubscribe />
         
         <div id='PressKit'>
-
+          <h2>Kit of beans for the press to spill!</h2>
+          <div>
+            <h3>Assets on Google Drive</h3>
+            <a href="#"><button className='googleDriveLink'>Screenshots</button></a>
+            <a href="#"><button className='googleDriveLink'>Promo Art</button></a>
+            <a href="#"><button className='googleDriveLink'>Trailer</button></a>
+          </div>
         </div>
-        <NewsletterSubscribe />
+        
       </div>
 
       <div className='copyright-section'>

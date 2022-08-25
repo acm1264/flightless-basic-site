@@ -10,7 +10,9 @@ export const Bios = [
         element: "Any",
         colorClass: "null-color",
 
-        portrait: "/dover-icon-from-capsule.png"
+        portrait: "/dover-icon-from-capsule.png",
+        portraitPixel: "/dover-icon-pixel.png",
+        gif: "/LD-4-dunder.gif"
         
     },
     {
@@ -24,7 +26,9 @@ export const Bios = [
         element: "Ocean",
         colorClass: "ocean-color",
 
-        portrait: "/Golly-icon-from-capsule.png"
+        portrait: "/Golly-icon-from-capsule.png",
+        portraitPixel: "/golly-icon-pixel.png",
+        gif: "/LD5-spillBeans-opt.gif"
     },
     {
         fullName: "Flashy Literson",
@@ -37,7 +41,9 @@ export const Bios = [
         element: "Sky",
         colorClass: "sky-color",
 
-        portrait: "/Flashy-icon-from-capsule.png"
+        portrait: "/Flashy-icon-from-capsule.png",
+        portraitPixel: "/flashy-icon-pixel.png",
+        gif: "/LD-3-FlashyChaseAbility-opt.gif"
     },
     {
         fullName: "Edrupture",
@@ -50,7 +56,9 @@ export const Bios = [
         element: "Earth",
         colorClass: "earth-color",
 
-        portrait: "/Ed-icon-from-capsule.png"
+        portrait: "/Ed-icon-from-capsule.png",
+        portraitPixel: "/ed-icon-pixel.png",
+        gif: "/LD1-rd-jump-opt.gif"
     },
     {
         fullName: "LOTTO (Logical Operations, Terminations, & Troubleshooting Officer)",
@@ -63,6 +71,8 @@ export const Bios = [
         element: "Sky",
         colorClass: "sky-color",
 
-        portrait: "/lotto-icon-from-capsule.png"
+        portrait: "/lotto-icon-from-capsule.png",
+        portraitPixel: "/lotto-icon-pixel.png",
+        gif: "/LD-2-LottoAttack-opt.gif"
     }
 ]

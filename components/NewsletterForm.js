@@ -63,7 +63,7 @@ const NewsletterForm = ( { status, message, onValidated }) => {
   return (
     <div id="mc_embed_signup">
         <div id="mc_embed_signup_scroll">
-            <h2>Arborden Antics Mailing List!</h2>
+            <h2>Want more beans to be spilled? Join Golly's Mailing List!</h2>
             <div className="d-flex newsletter-input-fields">
                 <div className="mc-field-group">
                 <input
