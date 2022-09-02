@@ -142,6 +142,12 @@ code {
 }
 
 @media screen and (max-width: 960px) {
+  .gameplay-image-wrap
+  {
+    
+    max-width: 100%!important;
+
+  }
   .NavbarItems{
     /* position: relative; */
     position: fixed;
@@ -282,7 +288,7 @@ code {
     align-items: stretch;
   } */
 
-  #About{
+  #About, #Gameplay{
     width: 90% !important;
   }
 }
@@ -312,7 +318,7 @@ code {
 
 /*About section*/
 
-#About{
+#About, #Gameplay{
   text-align: center;
 
   /* height: 100vh;
@@ -336,6 +342,9 @@ code {
 #PressKit
 {
   width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* iframe {
@@ -576,6 +585,30 @@ p{
   /* box-shadow: 0px 3px 15px rgba(0,0,0,0.2); */
 }
 
+.gameplay-image-group-holder
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gameplay-image-wrap
+{
+  box-shadow: -3px 2px 15px 1px rgb(0 0 0 / 20%);
+  padding: 8px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  max-width: 50%;
+  
+}
+
+.gameplay-image
+{
+  
+}
+
 .sky-color
 {
   background-color: #e0e03a;
@@ -646,13 +679,34 @@ p{
   border-radius: 15px;
   
 }
-.googleDriveLink a
+a
 {
   text-decoration: none;
   
 }
 
 
+.quickFactsPressKit
+{
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.single-fact
+{
+  margin-bottom: 5px;
+}
+
+.single-fact a
+{
+  text-decoration: underline;
+}
+
+
+.quickFactsPressKit
+{
+  padding-bottom: 20px;
+}
 
 
 
