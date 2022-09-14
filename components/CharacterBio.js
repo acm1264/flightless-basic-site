@@ -27,7 +27,7 @@ class CharacterBio extends Component{
                                     <p className="bio-desc"><i>{item.aboutMe}</i></p>
                                 </div>
                                 <div className="bio-gif-holder">
-                                    <Image className={`${item.colorClass} bio-gif`} width="600px" height="338px" src={item.gif} />
+                                    <img className={`${item.colorClass} bio-gif`} width="600px" height="338px" src={item.gif} />
                                 </div>
 
 
