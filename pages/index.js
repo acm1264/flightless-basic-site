@@ -133,7 +133,7 @@ export default function Home() {
       </div>
 
       <div className='copyright-section'>
-        <FontAwesomeIcon icon={faCopyright} />Mole Team 6 LLC. ALL RIGHTS RESERVED.
+        <FontAwesomeIcon icon={faCopyright} />Mole Team 6. Rice and Rye Games LLC. ALL RIGHTS RESERVED.
       </div>
       <div className='social-section'>
         <a className="single-social-button"  href="https://store.steampowered.com/">
