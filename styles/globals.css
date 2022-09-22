@@ -376,7 +376,14 @@ code {
 }
 
 
+.masterDiv{
+  width: 100vw!important;
+}
 
+body, html{
+  margin:0;
+  padding:0;
+}
 
 
 
@@ -390,7 +397,7 @@ code {
 
   list-style: none;
   text-align: center;
-  /* width: 100vw; */
+  width: 100vw;
   /* margin-right: 2rem; */
 }
 
@@ -471,6 +478,14 @@ ul
   {
     text-align: center !important;
   }
+  
+.bio-gif
+{
+  width: 90vw!important;
+  height: auto!important;
+
+  /* box-shadow: 0px 3px 15px rgba(0,0,0,0.2); */
+}
   
 }
 
@@ -579,8 +594,8 @@ p{
 
 .bio-gif
 {
-  /* width: 300px;
-  height: 200px; */
+  width: 600px;
+  height:338px;
 
   /* box-shadow: 0px 3px 15px rgba(0,0,0,0.2); */
 }

@@ -22,7 +22,7 @@ export const Button = ({
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0]
 
     return (
-        <button className={"btn ${checkButtonStyle} ${checkButtonSize}"} onclick="window.location.href='https://store.steampowered.com/'" type="button">
+        <button className={"btn ${checkButtonStyle} ${checkButtonSize}"} onclick="window.location.href='https://store.steampowered.com/app/1941200/Flightless/'" type="button">
         {/* onClick={onClick}
         type={type}> */}
             {children}

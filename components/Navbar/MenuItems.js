@@ -26,7 +26,7 @@ export const MenuItems = [
     },
     {
         title: "Steam",
-        url: "https://store.steampowered.com/",
+        url: "https://store.steampowered.com/app/1941200/Flightless/",
         cName: "nav-links-mobile"
     }
 ]

@@ -17,7 +17,7 @@ import {faYoutube} from '@fortawesome/free-brands-svg-icons'
 
 export default function Home() {
   return (
-    <div>
+    <div className='masterDiv'>
       <Navbar />
       <div className='holderForAllSections'>
         <div id="home" className='homeSection'>
@@ -26,7 +26,7 @@ export default function Home() {
         </div>
 
         <div>
-          <a href="#steam"><h2 className="nav-links-mobile">WISHLIST ON STEAM!</h2></a>
+          <a href="https://store.steampowered.com/app/1941200/Flightless/"><h2 className="nav-links-mobile">WISHLIST ON STEAM!</h2></a>
         </div>
 
         <div id="About">
@@ -42,8 +42,7 @@ export default function Home() {
             a corrupt video game company, and more! Uncover the mysteries of the quirky region of Arborden as you 
             aid Dover in his quest to find his family and escape! Don't worry... EVERY WORLD HAS OATMEAL!!!!</p>
             <div className="gameplay-image-group-holder">
-              {/* <Image className={`gameplay-image`} width="450px" height="253.5px" src="/LD5-spillBeans-opt.gif" />
-              <Image className={`gameplay-image`} width="450px" height="253.5px" src="/LD5-spillBeans-opt.gif" /> */}
+              
                 <div className='gameplay-image-wrap'>
                   <Image className={`gameplay-image`} width="450px" height="253.5px" src="/SS3-LottoAbility-forest.png" />
                 </div>
@@ -68,7 +67,7 @@ export default function Home() {
                 </div>
             </div>
           <p>
-            You can even equip feathers to give you perks in battles… or make combat <b>MORE DIFFICULT</b> 
+            You can even equip feathers to give you perks in battles… or make combat <b>MORE DIFFICULT </b> 
             if you crave the extra challenge! Numbers are kept small too to allow you to keep track of how 
             much damage different moves will do more easily in your head than traditional RPGs!
           </p>
@@ -84,7 +83,7 @@ export default function Home() {
             </div>
 
             <p>Though Dover's main goals are to save his family and rebuild their airplane, he will also need to work through his internal struggles with mental 
-              health to make that happen. Help Dover gain [b]Confidence Points (CP)[/b] through overcoming battles to unlock his true potential. As 
+              health to make that happen. Help Dover gain <b>Confidence Points (CP)</b> through overcoming battles to unlock his true potential. As 
               you travel, a mysterious voice will also be tormenting Dover, but it's important to remember that no matter how bad things get, 
               there is always hope! </p>
             <div className="gameplay-image-group-holder">
@@ -136,7 +135,7 @@ export default function Home() {
         <FontAwesomeIcon icon={faCopyright} />Mole Team 6. Rice and Rye Games LLC. ALL RIGHTS RESERVED.
       </div>
       <div className='social-section'>
-        <a className="single-social-button"  href="https://store.steampowered.com/">
+        <a className="single-social-button"  href="https://store.steampowered.com/app/1941200/Flightless/">
                    <FontAwesomeIcon icon={faSteam} />
         </a>
         <a className="single-social-button"  href="https://www.youtube.com/channel/UC_bpfFMOLG3nnjErpk_fbPg">
