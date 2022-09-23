@@ -31,8 +31,7 @@ export default function Home() {
 
         <div id="About">
           <h2>What is Flightless?</h2>
-          <p>Help the flightless bird, Dover, fight his inner demons by teaming up with 7 partners in this turn-based RPG where your timing matters! Solve puzzles, 
-            beat baddies, and tackle platforming challenges to uncover the mysteries of a quirky island, save Dover's family, and fight for better mental health!</p>
+          <p>Help the flightless bird, Dover, build confidence by teaming up with 7 partners in this turn-based RPG where your timing matters! Solve puzzles, beat baddies, and tackle platforming challenges to uncover the mysteries of a quirky island, save Dover's family, and fight to believe in yourself!</p>
           <YoutubeEmbed embedId="jOq1togfJ9o" />
         </div>
           
@@ -82,10 +81,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <p>Though Dover's main goals are to save his family and rebuild their airplane, he will also need to work through his internal struggles with mental 
-              health to make that happen. Help Dover gain <b>Confidence Points (CP)</b> through overcoming battles to unlock his true potential. As 
-              you travel, a mysterious voice will also be tormenting Dover, but it's important to remember that no matter how bad things get, 
-              there is always hope! </p>
+            <p>Though Dover's main goals are to save his family and rebuild their airplane, he will also need to work through his struggles with confidence to make that happen. Help Dover gain <b>Confidence Points (CP)</b> through overcoming battles to unlock his true potential.</p>
             <div className="gameplay-image-group-holder">
               {/* <Image className={`gameplay-image`} width="450px" height="253.5px" src="/LD5-spillBeans-opt.gif" />
               <Image className={`gameplay-image`} width="450px" height="253.5px" src="/LD5-spillBeans-opt.gif" /> */}
