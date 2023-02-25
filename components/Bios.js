@@ -33,7 +33,7 @@ export const Bios = [
     {
         fullName: "Flashy Literson",
         homeTown: "Luminescence",
-        aboutMe: "It's everyone's favorite utility, Flashy the Flashlight! Flashy is the last of the Flashlights in Luminescence. After... the incident, he was taken in as a baby by a nice lamp family, where he was sheltered from the outside world. Despite being a bright guy, he is rather timid and afraid of the outside world. However, when he works up the courage to fight, the Mothia better watch out for his signature LIT move, Flash Fright!",
+        aboutMe: "It's everyone's favorite utility, Flashy the Flashlight! Flashy is the last of the Flashlights in Luminescence. After... the incident, she was taken in as a baby by a nice lamp family, where she was sheltered from the outside world. Despite being a bright girl, she is rather timid and afraid of the outside world. However, when she works up the courage to fight, the Mothia better watch out for her signature LIT attack, Flash Fright!",
         likes: "Light, Family, Safety, Bulbalaya",
         dislikes: "Danger, Darkness, Wire Stew",
         skillAbility: "Gets LIT to brighten rooms, scare certain enemies, and reveal secrets!",
