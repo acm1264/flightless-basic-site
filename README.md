@@ -1,6 +1,8 @@
 # ABOUT
 Flightless site is a single page website currently deloying at [THIS URL](https://flightless-game.netlify.app/)
 
+This site was built using ReactJS to promote my currently in development video game, Flightless!
+
 ## REQUIREMENTS
 Want to have a single page site organized similar to [Kingdom of the Dump's Website](https://kingdomsofthedump.com/). Make sure page is designed around mobile and scales up to desktop view (use Chrome dev tools to see different views)
 - Navigation bar at the top of the screen that scrolls you down to different points (the bar should also follow the page like in Kingdom of the Dump)
