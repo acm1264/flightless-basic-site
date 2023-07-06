@@ -32,7 +32,7 @@ export default function Home() {
         <div id="About">
           <h2>What is Flightless?</h2>
           <p>Help the flightless bird, Dover, build confidence by teaming up with 7 partners in this turn-based RPG where your timing matters! Solve puzzles, beat baddies, and tackle platforming challenges to uncover the mysteries of a quirky island, save Dover's family, and fight to believe in yourself!</p>
-          <YoutubeEmbed embedId="jOq1togfJ9o" />
+          <YoutubeEmbed embedId="vUOcYn0azgI" />
         </div>
           
         <div id="Gameplay">
