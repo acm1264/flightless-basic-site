@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import {Bios} from "./Bios"
-import Image from 'next/image'
+import Image from '@mui/material/Image';
+
 
 class CharacterBio extends Component{
     render() {
