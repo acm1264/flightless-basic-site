@@ -31,15 +31,13 @@ export default function Home() {
 
         <div id="About">
           <h2>What is Flightless?</h2>
-          <p>Help the flightless bird, Dover, build confidence by teaming up with 7 partners in this turn-based RPG where your timing matters! Solve puzzles, beat baddies, and tackle platforming challenges to uncover the mysteries of a quirky island, save Dover's family, and fight to believe in yourself!</p>
+          <p>Help the flightless bird, Dover, build confidence by teaming up with 7 partners in this turn-based RPG where your timing matters! Solve puzzles, beat baddies, and tackle platforming challenges to uncover the mysteries of a quirky island, save Dover's family, and... dethrone the Mothia?!</p>
           <YoutubeEmbed embedId="vUOcYn0azgI" />
         </div>
           
         <div id="Gameplay">
         <h2>Gameplay!</h2>
-          <p>Explore 6 dream-like worlds where you will take on the Mothia, a zombified cult of rock creatures, 
-            a corrupt video game company, and more! Uncover the mysteries of the quirky region of Arborden as you 
-            aid Dover in his quest to find his family and escape! Don't worry... EVERY WORLD HAS OATMEAL!!!!</p>
+          <p>Explore 6 dream-like regions throughout the archipelago of Arborden! Take on the Mothia, zombified rock creatures, a corrupt video game company, and more! Uncover the mysteries of these quirky places as you aid Dover in his quest to find his family and escape... and hopefully make some silly friends along the way!</p>
             <div className="gameplay-image-group-holder">
               
                 <div className='gameplay-image-wrap'>
@@ -50,10 +48,7 @@ export default function Home() {
                 </div>
             </div>
           <p>
-            Engage in turn-based battles featuring Action Commands: a system that requires special inputs, such as 
-            timing a button press or hitting buttons in a sequence, to deal more or take less damage in battle. 
-            Learn to strategize with the elemental triangle to change how much damage is dealt too by thinking about 
-            elemental strengths/weaknesses. 
+          Engage in turn-based battles featuring <b>Action Commands:</b> a system that requires special inputs, such as timing a button press or hitting buttons in a sequence, to deal more or take less damage in battle. Learn to strategize with the elemental triangle, equipable feathers, and more to turn the tide of battles! 
           </p>
           <div className="gameplay-image-group-holder">
               {/* <Image className={`gameplay-image`} width="450px" height="253.5px" src="/LD5-spillBeans-opt.gif" />
@@ -66,7 +61,7 @@ export default function Home() {
                 </div>
             </div>
           <p>
-            You can even equip feathers to give you perks in battles… or make combat <b>MORE DIFFICULT </b> 
+            You can even equip feathers to give you perks in battles... or make combat <b>MORE DIFFICULT </b> 
             if you crave the extra challenge! Numbers are kept small too to allow you to keep track of how 
             much damage different moves will do more easily in your head than traditional RPGs!
           </p>
@@ -81,7 +76,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <p>Though Dover's main goals are to save his family and rebuild their airplane, he will also need to work through his struggles with confidence to make that happen. Help Dover gain <b>Confidence Points (CP)</b> through overcoming battles to unlock his true potential.</p>
+            <p>If Dover wants to save his family and rebuild their airplane, he'll need to build some confidence to make that happen. Help Dover gain <b>Confidence Points (CP)</b> through overcoming battles to unlock his true potential!</p>
             <div className="gameplay-image-group-holder">
               {/* <Image className={`gameplay-image`} width="450px" height="253.5px" src="/LD5-spillBeans-opt.gif" />
               <Image className={`gameplay-image`} width="450px" height="253.5px" src="/LD5-spillBeans-opt.gif" /> */}
@@ -115,7 +110,7 @@ export default function Home() {
               <div className='single-fact'><b>Promo Art by:</b> <a href='https://pathofpixels.de/'>Path of Pixels</a></div> 
               <div className='single-fact'><b>Platforms:</b> <a href='#Steam'>Steam</a></div> 
               <div className='single-fact'><b>Price:</b> TBD</div> 
-              <div className='single-fact'><b>Release:</b> TBD 2024</div> 
+              <div className='single-fact'><b>Release:</b> TBD</div> 
               <div className='single-fact'><b>Languages:</b> English | More TBD</div> 
               <div className='single-fact'><b>Contact:</b> contact@moleteam6.com</div> 
               <div className='single-fact'><b>Twitter:</b> <a href='https://twitter.com/flightless_game/'>@flightless_game</a></div> 
