@@ -16,7 +16,7 @@ export const Bios = [
         
     },
     {
-        fullName: "Golly G. Gooners",
+        fullName: "Golly G. Goobster",
         homeTown: "??????",
         aboutMe: "Aye-yo! What up my dudes! The name's Golly! The devs let me write my bio since no one knows me better than... me! Ya boi is the greatest explorer Arborden has ever seen, so I got plenty o' beans ready to spill when ya need some KNOWLEDGE! I'll be vibin' with my feathered-dude, Dover, throughout his whole adventure, so I hope you like memes cause I got loads of 'em ;)",
         likes: "Friends, Memes, Exploration, Beans, Oatmeal, Coffee",
@@ -31,9 +31,9 @@ export const Bios = [
         gif: "/LD5-spillBeans-opt.gif"
     },
     {
-        fullName: "Flashy Literson",
+        fullName: "Eliza Litworth",
         homeTown: "Luminescence",
-        aboutMe: "It's everyone's favorite utility, Flashy the Flashlight! Flashy is the last of the Flashlights in Luminescence. After... the incident, she was taken in as a baby by a nice lamp family, where she was sheltered from the outside world. Despite being a bright girl, she is rather timid and afraid of the outside world. However, when she works up the courage to fight, the Mothia better watch out for her signature LIT attack, Flash Fright!",
+        aboutMe: "It's everyone's favorite utility, Litworth the Flashlight! Eliza Litworth is the last of the Flashlights in Luminescence. After... the incident... she was taken in as a baby by a lamp family, where she was sheltered from the outside world. Despite being a bright girl, she is rather timid and afraid to journey on her own. However, when she works up the courage to fight, the Mothia better watch out for her signature LIT attack, Flash Fright!",
         likes: "Light, Family, Safety, Bulbalaya",
         dislikes: "Danger, Darkness, Wire Stew",
         skillAbility: "Gets LIT to brighten rooms, scare certain enemies, and reveal secrets!",
@@ -46,7 +46,7 @@ export const Bios = [
         gif: "/LD-3-FlashyChaseAbility-opt.gif"
     },
     {
-        fullName: "Edrupture",
+        fullName: "Edrupture Lavalocke",
         homeTown: "Firelight Mines",
         aboutMe: "You're gonna need earplugs if you wanna talk to Edrupture! This hot-headed fellow can jump higher than your average flightless bird! Ed is never afraid to speak his mind, especially to protect his loved ones! After the zombie rock outbreak in the mines, Ed has been in charge of keeping his fellow volcanites safe, but he'll need more than brute strength and confidence to take out the zomneous threat!",
         likes: "Productivity, Family, Yelling",
@@ -63,7 +63,7 @@ export const Bios = [
     {
         fullName: "LOTTO (Logical Operations, Terminations, & Troubleshooting Officer)",
         homeTown: "Hacker-Space",
-        aboutMe: "Don't blink, or you'll miss him! Meet, Lotto, everyone's favorite hacker! Whether he uses his pet, Rammy, or his peculiar dagger, Lotto can slice through any bugs that stand in his way! Though he may seem cold and distant at first, Lotto is the most honest RAM you'll ever meet!",
+        aboutMe: "Don't blink, or you'll miss him! Meet Lotto: everyone's favorite hacker! Whether he uses his pet, Rammy, or his peculiar dagger, Lotto can slice through any bugs that stand in his way! Though he may seem cold and distant at first, Lotto is the most honest RAM you'll ever meet!",
         likes: "Hacking, Debugging, Coding, Rammy (pet)",
         dislikes: "Bugs, Loud People, Social Settings",
         skillAbility: "Use his pet, Rammy, to run faster and jump farther!",
