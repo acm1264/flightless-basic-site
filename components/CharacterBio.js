@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Bios} from "./Bios"
-import Image from 'next/image'
+// import Image from 'next/image'
 
 class CharacterBio extends Component{
     render() {
@@ -12,7 +12,7 @@ class CharacterBio extends Component{
                             <li className="single-bio-list-element" key={index}>
                                 <div className="portrait-and-info-combo">
                                     <div className="bio-portrait-holder">
-                                        <Image className={`${item.colorClass} bio-portrait-image`} width="200%" height="200%" src={item.portrait} />
+                                        <img className={`${item.colorClass} bio-portrait-image`} width="200%" height="200%" src={item.portrait} />
                                     </div>
                                     <div className="bio-info-holder">
                                         <h3>{item.fullName}</h3>

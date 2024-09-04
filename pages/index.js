@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '@components/Navbar/Navbar'
 import NewsletterForm from '@components/NewsletterForm'
 import NewsletterSubscribe from '@components/NewsletterSubscribe'
-import Image from 'next/image'
+// import Image from 'next/image'
 import CharacterBio from '@components/CharacterBio'
 import YoutubeEmbed from '@components/YoutubeEmbed'
 
@@ -31,33 +31,33 @@ export default function Home() {
 
         <div id="About">
           <h2>What is Flightless?</h2>
-          <p>Help the flightless bird, Dover, build confidence by teaming up with 7 partners in this turn-based RPG where your timing matters! Solve puzzles, beat baddies, and tackle platforming challenges to uncover the mysteries of a quirky island, save Dover's family, and... dethrone the Mothia?!</p>
+          <p>Help the flightless bird, Dover, build confidence by teaming up with 5 partners in this turn-based RPG where your timing matters! Solve puzzles, beat baddies, and tackle platforming challenges to uncover the mysteries of a quirky island, save Dover's family, and... dethrone the Mothia?!</p>
           <YoutubeEmbed embedId="vUOcYn0azgI" />
         </div>
           
         <div id="Gameplay">
         <h2>Gameplay!</h2>
-          <p>Explore 6 dream-like regions throughout the archipelago of Arborden! Take on the Mothia, zombified rock creatures, a corrupt video game company, and more! Uncover the mysteries of these quirky places as you aid Dover in his quest to find his family and escape... and hopefully make some silly friends along the way!</p>
+          <p>Explore 5 dream-like islands throughout the archipelago of Arborden! Take on the Mothia, zombified rock creatures, a corrupt video game company, and more! Uncover the mysteries of these quirky places as you aid Dover in his quest to find his family and escape... and hopefully make some silly friends along the way!</p>
             <div className="gameplay-image-group-holder">
               
                 <div className='gameplay-image-wrap'>
-                  <Image className={`gameplay-image`} width="450px" height="253.5px" src="/SS3-LottoAbility-forest.png" />
+                  <img className={`gameplay-image`} width="450px" height="253.5px" src="/SS3-LottoAbility-forest.png" />
                 </div>
                 <div className='gameplay-image-wrap'>
-                  <Image className={`gameplay-image`} width="450px" height="253.5px" src="/SS9-minecart.jpg" />
+                  <img className={`gameplay-image`} width="450px" height="253.5px" src="/SS9-minecart.jpg" />
                 </div>
             </div>
           <p>
           Engage in turn-based battles featuring <b>Action Commands:</b> a system that requires special inputs, such as timing a button press or hitting buttons in a sequence, to deal more or take less damage in battle. Learn to strategize with the elemental triangle, equipable feathers, and more to turn the tide of battles! 
           </p>
           <div className="gameplay-image-group-holder">
-              {/* <Image className={`gameplay-image`} width="450px" height="253.5px" src="/LD5-spillBeans-opt.gif" />
-              <Image className={`gameplay-image`} width="450px" height="253.5px" src="/LD5-spillBeans-opt.gif" /> */}
+              {/* <img className={`gameplay-image`} width="450px" height="253.5px" src="/LD5-spillBeans-opt.gif" />
+              <img className={`gameplay-image`} width="450px" height="253.5px" src="/LD5-spillBeans-opt.gif" /> */}
                 <div className='gameplay-image-wrap'>
-                  <Image className={`gameplay-image`} width="450px" height="253.5px" src="/SS2-lavaStompa.png" />
+                  <img className={`gameplay-image`} width="450px" height="253.5px" src="/SS2-lavaStompa.png" />
                 </div>
                 <div className='gameplay-image-wrap'>
-                  <Image className={`gameplay-image`} width="450px" height="253.5px" src="/SS8-ThunderWhacked.png" />
+                  <img className={`gameplay-image`} width="450px" height="253.5px" src="/SS8-ThunderWhacked.png" />
                 </div>
             </div>
           <p>
@@ -66,25 +66,25 @@ export default function Home() {
             much damage different moves will do more easily in your head than traditional RPGs!
           </p>
           <div className="gameplay-image-group-holder">
-              {/* <Image className={`gameplay-image`} width="450px" height="253.5px" src="/LD5-spillBeans-opt.gif" />
-              <Image className={`gameplay-image`} width="450px" height="253.5px" src="/LD5-spillBeans-opt.gif" /> */}
+              {/* <img className={`gameplay-image`} width="450px" height="253.5px" src="/LD5-spillBeans-opt.gif" />
+              <img className={`gameplay-image`} width="450px" height="253.5px" src="/LD5-spillBeans-opt.gif" /> */}
                 <div className='gameplay-image-wrap'>
-                  <Image className={`gameplay-image`} width="450px" height="253.5px" src="/SS6-dover-attack-v2.png" />
+                  <img className={`gameplay-image`} width="450px" height="253.5px" src="/SS6-dover-attack-v2.png" />
                 </div>
                 <div className='gameplay-image-wrap'>
-                  <Image className={`gameplay-image`} width="450px" height="253.5px" src="/SS10-Feathers-menu.png" />
+                  <img className={`gameplay-image`} width="450px" height="253.5px" src="/SS10-Feathers-menu.png" />
                 </div>
             </div>
 
             <p>If Dover wants to save his family and rebuild their airplane, he'll need to build some confidence to make that happen. Help Dover gain <b>Confidence Points (CP)</b> through overcoming battles to unlock his true potential!</p>
             <div className="gameplay-image-group-holder">
-              {/* <Image className={`gameplay-image`} width="450px" height="253.5px" src="/LD5-spillBeans-opt.gif" />
-              <Image className={`gameplay-image`} width="450px" height="253.5px" src="/LD5-spillBeans-opt.gif" /> */}
+              {/* <img className={`gameplay-image`} width="450px" height="253.5px" src="/LD5-spillBeans-opt.gif" />
+              <img className={`gameplay-image`} width="450px" height="253.5px" src="/LD5-spillBeans-opt.gif" /> */}
                 <div className='gameplay-image-wrap'>
-                  <Image className={`gameplay-image`} width="450px" height="253.5px" src="/SS5-dunder.png" />
+                  <img className={`gameplay-image`} width="450px" height="253.5px" src="/SS5-dunder.png" />
                 </div>
                 <div className='gameplay-image-wrap'>
-                  <Image className={`gameplay-image`} width="450px" height="253.5px" src="/SS10-Feathers-menu.png" />
+                  <img className={`gameplay-image`} width="450px" height="253.5px" src="/SS10-Feathers-menu.png" />
                 </div>
             </div>
         </div>
